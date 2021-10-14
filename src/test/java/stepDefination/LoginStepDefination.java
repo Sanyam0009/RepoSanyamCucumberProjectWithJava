@@ -19,7 +19,7 @@ import cucumber.api.java.en.When;
 public class LoginStepDefination extends BrowserFactory {
 	//public static WebDriver driver;
 	RegisterUser RUObj;
-	public static LoginPage LPObj;
+	public LoginPage LPObj;
 	
 	@Given("^Browser is open$")
 	public void browser_is_open() throws Throwable {
@@ -27,7 +27,8 @@ public class LoginStepDefination extends BrowserFactory {
 //		driver = new FirefoxDriver();
 //		driver.manage().window().maximize();
 //		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-		BrowserFactory.getDriver("firefox");
+		//BrowserFactory.getDriver("firefox");
+		getDriver("firefox");
 	}
 
 	@When("^registration page appears$")

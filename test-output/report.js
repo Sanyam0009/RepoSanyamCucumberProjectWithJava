@@ -43,36 +43,33 @@ formatter.match({
   "location": "LoginStepDefination.browser_is_open()"
 });
 formatter.result({
-  "duration": 19282620700,
-  "status": "passed"
+  "duration": 66234526600,
+  "error_message": "org.openqa.selenium.TimeoutException: connection refused\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SAKSHI\u0027, ip: \u0027192.168.0.109\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: FirefoxDriver\nremote stacktrace: \r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:147)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:125)\r\n\tat com.sanyam.frameWorkPackage.BrowserFactory.getDriver(BrowserFactory.java:24)\r\n\tat stepDefination.LoginStepDefination.browser_is_open(LoginStepDefination.java:31)\r\n\tat ✽.Given Browser is open(login.feature:4)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefination.registration_page_appears()"
 });
 formatter.result({
-  "duration": 3344166800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_enters_email_address()"
 });
 formatter.result({
-  "duration": 36700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_create_account()"
 });
 formatter.result({
-  "duration": 25800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_gets_registered()"
 });
 formatter.result({
-  "duration": 106800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenarioOutline({
   "line": 10,
@@ -191,14 +188,14 @@ formatter.match({
   "location": "LoginStepDefination.user_is_registered()"
 });
 formatter.result({
-  "duration": 116500,
+  "duration": 141400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_signin_button()"
 });
 formatter.result({
-  "duration": 34600,
+  "duration": 37300,
   "status": "passed"
 });
 formatter.match({
@@ -215,29 +212,27 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_Username_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 4583284300,
-  "status": "passed"
+  "duration": 6360800,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDefination.LoginStepDefination.user_enters_Username_and_Password(LoginStepDefination.java:74)\r\n\tat ✽.Then User enters \"scsanyam52@gmail.com\" and \"SanyamC\"(login.feature:13)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 57100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 125400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_signout_from_the_site()"
 });
 formatter.result({
-  "duration": 3421681700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 21,
@@ -285,14 +280,14 @@ formatter.match({
   "location": "LoginStepDefination.user_is_registered()"
 });
 formatter.result({
-  "duration": 124000,
+  "duration": 112300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_signin_button()"
 });
 formatter.result({
-  "duration": 41800,
+  "duration": 41100,
   "status": "passed"
 });
 formatter.match({
@@ -309,29 +304,26 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_Username_and_Password(String,String)"
 });
 formatter.result({
-  "duration": 5786030100,
-  "status": "passed"
+  "duration": 539500,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepDefination.LoginStepDefination.user_enters_Username_and_Password(LoginStepDefination.java:74)\r\n\tat ✽.Then User enters \"verma.sakshi104@gmail.com\" and \"SakshiV\"(login.feature:13)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 60200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 280800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepDefination.user_signout_from_the_site()"
 });
 formatter.result({
-  "duration": 77748100,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: .logout\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SAKSHI\u0027, ip: \u0027192.168.0.111\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12188, moz:profile: C:\\Users\\$akshi\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f6dd19e8-c411-4eca-ac11-773dc6589bc9\n*** Element info: {Using\u003dclass name, value\u003dlogout}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefination.LoginStepDefination.user_signout_from_the_site(LoginStepDefination.java:88)\r\n\tat ✽.Then user signout from the site(login.feature:16)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 });

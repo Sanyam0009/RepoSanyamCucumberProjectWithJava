@@ -9,8 +9,9 @@ import cucumber.api.junit.Cucumber;
 		glue={"stepDefination"}, // Step Defination folder name
 		format={"pretty","html:test-output"}, //this will generate a HTML report at test-output folder //it can also generate different type of report like Jeson,XML , HTML
 		dryRun = false, // make it true to see maping of all the steps in feature file with step defination file and will not launch the test case
-		//strict = true, //it will check if any step is not defind in Stepdefination file file.
+		//strict = true, //it will check if any step is not defind in Stepdefination file file.and will give pending exception if not present
 		monochrome = true // to display the console output in proper readable format 
+		//tags= {"@abc"}
 		)
 
 public class TestRunner {
